@@ -1,0 +1,48 @@
+.principal{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+h1{
+    line-height: 1.2em;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: rgba(160, 36, 32, 0.904);
+      color: yellow;
+    }
+}
+  
+@media screen and (min-width: 1020px) {
+    body {
+        background-color: rgb(175, 129, 194);
+        color: rgb(126, 3, 3);
+    }
+    .sec{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1020px){
+    body {
+        background-color: rgba(61, 209, 214, 0.87);
+        color: rgb(126, 3, 3);
+    }
+    .sec{
+        width: 68%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 720px){
+    body {
+        background-color: rgb(114, 189, 52);
+        color: rgb(28, 55, 138);
+    }
+    .sec{
+        width: 89%;
+    }
+}
